@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1061793082471",
+    "project_id": "kidgoapp-a580b",
+    "storage_bucket": "kidgoapp-a580b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1061793082471:android:6da3f816d475d08834b8c2",
+        "android_client_info": {
+          "package_name": "com.kidgoapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2SgTGgS9J_utSSfW_wmCSjLRQGFQHkbk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
