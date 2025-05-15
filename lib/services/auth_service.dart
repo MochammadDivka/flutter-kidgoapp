@@ -6,7 +6,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 class AuthService {
   String? errorMessage;
-  final String baseUrl = "http://192.168.1.12:8000/api";
+  final String baseUrl = "http://10.10.175.210:8000/api";
 
   Future<bool> register(PenggunaModel pengguna) async {
     try {

@@ -5,7 +5,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import '../models/anak_model.dart';
 
 class AnakService {
-  final String baseUrl = "http://192.168.1.12:8000/api";
+  final String baseUrl = "http://10.10.175.210:8000/api";
 
   Future<List<AnakModel>> getDataAnak() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();

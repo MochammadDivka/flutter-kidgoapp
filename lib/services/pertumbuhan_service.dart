@@ -4,7 +4,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import '../models/pertumbuhan_model.dart';
 
 class PertumbuhanService {
-  final String baseUrl = "http://192.168.1.12:8000/api";
+  final String baseUrl = "http://10.10.175.210:8000/api";
 
   Future<List<PertumbuhanModel>> getDataPertumbuhan(int anakId) async {
     final prefs = await SharedPreferences.getInstance();

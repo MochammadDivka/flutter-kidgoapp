@@ -368,7 +368,7 @@ class _JadwalImunisasiDetailScreenState extends State<JadwalImunisasiDetailScree
   Widget _buildBuktiImunisasi() {
     final buktiFileName = imunisasi.buktiImunisasi ?? '';
     final hasExistingImage = buktiFileName.isNotEmpty;
-    final imageUrl = 'http://192.168.1.12:8000/storage/$buktiFileName';
+    final imageUrl = 'http://10.10.175.210:8000/storage/$buktiFileName';
 
     return InkWell(
       onTap: () {

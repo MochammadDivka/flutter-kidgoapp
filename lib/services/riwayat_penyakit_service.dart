@@ -4,7 +4,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import '../models/riwayat_penyakit_model.dart';
 
 class RiwayatPenyakitService {
-  final String baseUrl = 'http://192.168.1.12:8000/api';
+  final String baseUrl = 'http://10.10.175.210:8000/api';
 
   /// Mengambil data riwayat penyakit berdasarkan ID anak
   Future<List<RiwayatPenyakitModel>> getRiwayatPenyakit(int anakId) async {

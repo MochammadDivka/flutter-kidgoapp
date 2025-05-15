@@ -5,7 +5,7 @@ import '../models/pengguna_model.dart';
 
 class PenggunaService {
   // Ganti dengan URL API Anda
-  final String baseUrl = "http://192.168.1.12:8000/api";
+  final String baseUrl = "http://10.10.175.210:8000/api";
 
   // Mendapatkan token dari SharedPreferences
   Future<String?> _getToken() async {

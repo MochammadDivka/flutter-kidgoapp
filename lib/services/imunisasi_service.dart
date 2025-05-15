@@ -6,7 +6,7 @@ import 'package:path/path.dart';
 import '../models/imunisasi_model.dart';
 
 class ImunisasiService {
-  final String baseUrl = 'http://192.168.1.12:8000/api';
+  final String baseUrl = 'http://10.10.175.210:8000/api';
 
   /// Ambil jadwal imunisasi berdasarkan anak ID
   Future<List<ImunisasiModel>> getJadwal(int anakId) async {
